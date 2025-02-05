@@ -1,0 +1,18 @@
+# First, ignore everything
+*
+*/
+
+# Then, explicitly ignore these folders (for extra certainty)
+/onnx-inference/
+/onnx-rust/
+/.venv/
+/.vscode/
+/tiny-imagenet-200/
+
+# Finally, allow only resnet50
+!/resnet50/
+!/resnet50/**
+
+# Keep root gitignore
+!.gitignore
+!.gitattributes
